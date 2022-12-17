@@ -2,8 +2,8 @@ from time import sleep
 
 
 class TrafficLight:
-    def __init__(self, color):
-        self.__color = color
+    def __init__(self):
+        self.__color = None
 
     def running(self):
         while True:
